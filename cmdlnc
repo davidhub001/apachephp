@@ -1,0 +1,27 @@
+sudo apt install apache2
+sudo ufw app list
+sudo ufw allow apache
+sudo systemctl start apache2
+sudo install php[version]-cli
+sudo apt isntall php[version]-fpm
+sudo a2enconf php[version]-fpm (active le version php apache)
+sudo a2disonf php[version]-fpm (desactive version php apache) 
+sudo apt install phpmyadmin
+sudo gedit /etc/apache2/apache2.conf
+		-> Include /etc/phpmyadmin/apache.conf
+sudo apt install isntall mysql-server
+sudo systemctl start Mysql
+
+sudo update-alternatives --config php (changer version php terminal)
+
+module installe
+
+sudo apt install libapache2-mod-php8.1
+ sudo apt install php8.1-soap   
+ sudo apt install php8.1-memcache
+ sudo apt install php8.1-mysqli       
+ sudo apt install php8.1-mysql
+ sudo apt install php8.1-mbstring        
+ sudo apt install php8.1-curl
+ sudo apt install php8.1-xml        
+ sudo apt install php8.1-gd
