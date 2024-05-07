@@ -4,7 +4,7 @@ sudo ufw allow apache
 sudo systemctl start apache2
 sudo install php[version]-cli
 sudo apt isntall php[version]-fpm
-sudo a2enconf php[version]-fpm (active le version php apache)
+sudo a2enconf php[version]-fpm (active la version php apache)
 sudo a2disonf php[version]-fpm (desactive version php apache) 
 sudo apt install phpmyadmin
 sudo gedit /etc/apache2/apache2.conf
